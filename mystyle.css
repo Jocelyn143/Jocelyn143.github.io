@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(105, 106, 133);
+}
+h1 {
+    text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;color:white;
+}
+h2 {
+    text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif;color:white;
+}
+p {
+    color: rgb(224, 226, 228);margin-left: 270px;margin-right: 270px;
+    font-size: medium; font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.4;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #9cac61;
+  }
